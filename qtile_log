@@ -1,0 +1,167 @@
+2022-05-25 07:27:20,418 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-25 07:27:20,420 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-25 07:28:50,623 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-25 08:53:26,863 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: closing parenthesis ']' does not match opening parenthesis '(' on line 68 (config.py, line 75)
+2022-05-25 08:53:26,864 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-25 08:54:52,095 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-25 08:55:03,676 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-25 08:55:03,677 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-25 08:56:39,743 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-25 08:59:12,324 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-25 08:59:12,325 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-25 09:01:18,586 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-26 07:13:29,953 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-26 07:13:29,967 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-26 07:16:26,789 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-26 07:16:26,790 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-26 07:18:20,128 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-26 07:18:20,129 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-26 07:19:09,047 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-26 07:19:12,189 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-26 07:19:12,190 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-26 07:19:12,208 ERROR libqtile hook.py:fire():L391 Error in hook startup_complete
+Traceback (most recent call last):
+  File "/home/ahmad/.local/lib/python3.10/site-packages/libqtile/hook.py", line 389, in fire
+    i(*args, **kwargs)
+  File "/home/ahmad/.local/lib/python3.10/site-packages/libqtile/backend/wayland/core.py", line 654, in _configure_pending_inputs
+    inputs.configure_device(device, self.qtile.config.wl_input_rules)
+  File "/home/ahmad/.local/lib/python3.10/site-packages/libqtile/backend/wayland/inputs.py", line 335, in configure_device
+    if handle and libinput.libinput_device_config_tap_get_finger_count(handle) > 0:
+AttributeError: 'NoneType' object has no attribute 'libinput_device_config_tap_get_finger_count'
+2022-05-26 07:21:14,620 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-26 07:21:14,621 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-26 07:22:07,856 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: name 'clickfinger' is not defined
+2022-05-26 07:22:07,856 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-26 07:22:11,067 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: name 'clickfinger' is not defined
+2022-05-26 07:22:11,067 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-26 07:23:14,279 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: name 'clickfinger' is not defined
+2022-05-26 07:23:14,280 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-26 07:23:27,430 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-26 07:24:35,936 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-26 07:24:35,939 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-26 07:24:35,940 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-26 07:24:43,531 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-26 07:24:51,147 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-26 07:24:51,150 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-26 07:24:51,151 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-26 07:25:54,863 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: name 'clickfinger' is not defined
+2022-05-26 07:25:54,864 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-26 07:27:40,223 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: name 'clickfinger' is not defined
+2022-05-26 07:27:40,224 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-26 07:27:53,208 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-26 07:27:58,611 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-26 07:27:58,613 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-26 07:27:58,614 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-26 07:28:08,431 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-26 07:28:13,107 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-26 07:28:13,109 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-26 07:28:13,111 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-26 07:32:27,412 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: name 'clickfinger' is not defined
+2022-05-26 07:32:27,412 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-26 07:32:51,988 ERROR libqtile manager.py:cmd_reload_config():L260 Configuration error: name 'clickfinger' is not defined
+2022-05-26 07:32:51,988 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-26 07:36:36,657 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-27 07:06:24,399 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-27 07:06:24,426 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-27 07:06:24,427 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-27 07:06:41,177 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-27 07:16:06,391 WARNING libqtile utils.py:send_notification():L246 dbus-next is not installed. Unable to send notifications.
+2022-05-27 07:16:06,394 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-27 07:16:06,395 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-27 07:16:22,851 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-27 07:37:22,856 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-27 07:37:22,857 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-27 07:37:22,877 ERROR libqtile hook.py:fire():L391 Error in hook startup_complete
+Traceback (most recent call last):
+  File "/home/ahmad/.local/lib/python3.10/site-packages/libqtile/hook.py", line 389, in fire
+    i(*args, **kwargs)
+  File "/home/ahmad/.local/lib/python3.10/site-packages/libqtile/backend/wayland/core.py", line 654, in _configure_pending_inputs
+    inputs.configure_device(device, self.qtile.config.wl_input_rules)
+  File "/home/ahmad/.local/lib/python3.10/site-packages/libqtile/backend/wayland/inputs.py", line 350, in configure_device
+    _configure_keyboard(device, conf)
+  File "/home/ahmad/.local/lib/python3.10/site-packages/libqtile/backend/wayland/inputs.py", line 230, in _configure_keyboard
+    device.keyboard.set_repeat_info(conf.kb_repeat_rate, conf.kb_repeat_delay)
+AttributeError: 'dict' object has no attribute 'kb_repeat_rate'
+2022-05-27 07:37:41,137 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-27 07:47:51,948 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-27 07:47:51,949 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-27 07:48:12,210 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-27 07:57:44,930 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-27 07:57:44,931 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-27 07:58:16,474 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-05-28 04:22:13,584 DEBUG libqtile log_utils.py:init_log():L130 Starting logging for Qtile
+2022-05-28 04:22:19,498 INFO libqtile core.py:__init__():L113 Starting core with WAYLAND_DISPLAY=wayland-0
+2022-05-28 04:22:20,371 INFO libqtile core.py:__init__():L205 Set up XWayland with DISPLAY=:0
+2022-05-28 04:22:20,701 DEBUG libqtile core.py:_on_new_input():L262 Signal: backend new_input_event
+2022-05-28 04:22:20,931 INFO libqtile core.py:_on_new_input():L273 New KEYBOARD: Power Button
+2022-05-28 04:22:20,931 DEBUG libqtile core.py:_on_new_input():L262 Signal: backend new_input_event
+2022-05-28 04:22:20,935 INFO libqtile core.py:_on_new_input():L273 New KEYBOARD: Video Bus
+2022-05-28 04:22:20,936 DEBUG libqtile core.py:_on_new_input():L262 Signal: backend new_input_event
+2022-05-28 04:22:20,940 INFO libqtile core.py:_on_new_input():L273 New KEYBOARD: Video Bus
+2022-05-28 04:22:20,940 DEBUG libqtile core.py:_on_new_input():L262 Signal: backend new_input_event
+2022-05-28 04:22:20,941 INFO libqtile core.py:_on_new_input():L273 New SWITCH: Lid Switch
+2022-05-28 04:22:20,941 DEBUG libqtile core.py:_on_new_input():L262 Signal: backend new_input_event
+2022-05-28 04:22:20,945 INFO libqtile core.py:_on_new_input():L273 New KEYBOARD: Sleep Button
+2022-05-28 04:22:20,945 DEBUG libqtile core.py:_on_new_input():L262 Signal: backend new_input_event
+2022-05-28 04:22:20,950 INFO libqtile core.py:_on_new_input():L273 New KEYBOARD: USB2.0 0.3M UVC WebCam: USB2.0 
+2022-05-28 04:22:20,950 DEBUG libqtile core.py:_on_new_input():L262 Signal: backend new_input_event
+2022-05-28 04:22:20,955 INFO libqtile core.py:_on_new_input():L273 New KEYBOARD: Asus WMI hotkeys
+2022-05-28 04:22:20,955 DEBUG libqtile core.py:_on_new_input():L262 Signal: backend new_input_event
+2022-05-28 04:22:20,960 INFO libqtile core.py:_on_new_input():L273 New KEYBOARD: AT Translated Set 2 keyboard
+2022-05-28 04:22:20,960 DEBUG libqtile core.py:_on_new_input():L262 Signal: backend new_input_event
+2022-05-28 04:22:20,960 INFO libqtile core.py:_on_new_input():L273 New POINTER: SynPS/2 Synaptics TouchPad
+2022-05-28 04:22:20,963 DEBUG libqtile core.py:_on_new_output():L280 Signal: backend new_output_event
+2022-05-28 04:22:21,104 DEBUG libqtile core.py:_on_output_layout_change():L302 Signal: output_layout change_event
+2022-05-28 04:22:21,176 DEBUG libqtile utils.py:guess_terminal():L324 Guessing terminal: roxterm
+2022-05-28 04:22:21,191 DEBUG libqtile utils.py:guess_terminal():L324 Guessing terminal: sakura
+2022-05-28 04:22:21,191 INFO libqtile utils.py:guess_terminal():L328 Terminal found: sakura
+2022-05-28 04:22:21,298 DEBUG libqtile clock.py:__init__():L76 Defaulting to the system local timezone.
+2022-05-28 04:22:21,378 DEBUG libqtile core.py:setup_listener():L659 Adding io watch
+2022-05-28 04:22:21,381 DEBUG libqtile ipc.py:start():L260 Starting server
+2022-05-28 04:22:21,400 DEBUG libqtile utils.py:guess_terminal():L324 Guessing terminal: roxterm
+2022-05-28 04:22:21,401 DEBUG libqtile utils.py:guess_terminal():L324 Guessing terminal: sakura
+2022-05-28 04:22:21,402 INFO libqtile utils.py:guess_terminal():L328 Terminal found: sakura
+2022-05-28 04:22:21,405 DEBUG libqtile clock.py:__init__():L76 Defaulting to the system local timezone.
+2022-05-28 04:22:21,425 DEBUG libqtile hook.py:fire():L381 Internal event: addgroup(('1',), {})
+2022-05-28 04:22:21,426 DEBUG libqtile hook.py:fire():L381 Internal event: changegroup((), {})
+2022-05-28 04:22:21,426 DEBUG libqtile hook.py:fire():L381 Internal event: addgroup(('2',), {})
+2022-05-28 04:22:21,427 DEBUG libqtile hook.py:fire():L381 Internal event: changegroup((), {})
+2022-05-28 04:22:21,427 DEBUG libqtile hook.py:fire():L381 Internal event: addgroup(('3',), {})
+2022-05-28 04:22:21,428 DEBUG libqtile hook.py:fire():L381 Internal event: changegroup((), {})
+2022-05-28 04:22:21,428 DEBUG libqtile hook.py:fire():L381 Internal event: addgroup(('4',), {})
+2022-05-28 04:22:21,428 DEBUG libqtile hook.py:fire():L381 Internal event: changegroup((), {})
+2022-05-28 04:22:21,429 DEBUG libqtile hook.py:fire():L381 Internal event: addgroup(('5',), {})
+2022-05-28 04:22:21,429 DEBUG libqtile hook.py:fire():L381 Internal event: changegroup((), {})
+2022-05-28 04:22:21,430 DEBUG libqtile hook.py:fire():L381 Internal event: addgroup(('6',), {})
+2022-05-28 04:22:21,430 DEBUG libqtile hook.py:fire():L381 Internal event: changegroup((), {})
+2022-05-28 04:22:21,431 DEBUG libqtile hook.py:fire():L381 Internal event: addgroup(('7',), {})
+2022-05-28 04:22:21,431 DEBUG libqtile hook.py:fire():L381 Internal event: changegroup((), {})
+2022-05-28 04:22:21,431 DEBUG libqtile hook.py:fire():L381 Internal event: addgroup(('8',), {})
+2022-05-28 04:22:21,432 DEBUG libqtile hook.py:fire():L381 Internal event: changegroup((), {})
+2022-05-28 04:22:21,432 DEBUG libqtile hook.py:fire():L381 Internal event: addgroup(('9',), {})
+2022-05-28 04:22:21,433 DEBUG libqtile hook.py:fire():L381 Internal event: changegroup((), {})
+2022-05-28 04:22:21,433 DEBUG libqtile hook.py:fire():L381 Internal event: setgroup((), {})
+2022-05-28 04:22:21,434 DEBUG libqtile hook.py:fire():L381 Internal event: focus_change((), {})
+2022-05-28 04:22:21,434 DEBUG libqtile hook.py:fire():L381 Internal event: layout_change((<libqtile.layout.columns.Columns object at 0x7fcfed0e67a0>, <group.Group ('1')>), {})
+2022-05-28 04:22:21,467 WARNING libqtile prompt.py:_configure():L428 Prompt widget only supports audible bell under X11
+2022-05-28 04:22:21,469 ERROR libqtile bar.py:_configure_widget():L340 Systray widget crashed during _configure with error: AttributeError("'Core' object has no attribute 'conn'")
+2022-05-28 04:22:24,565 DEBUG libqtile hook.py:fire():L381 Internal event: startup_once((), {})
+2022-05-28 04:22:24,566 DEBUG libqtile hook.py:fire():L381 Internal event: startup((), {})
+2022-05-28 04:22:24,567 DEBUG libqtile hook.py:fire():L381 Internal event: startup_complete((), {})
+2022-05-28 04:22:24,579 WARNING libqtile inputs.py:configure_device():L352 Device not configured. Type 'InputDeviceType.SWITCH' not recognised.
+2022-05-28 04:22:24,594 ERROR libqtile hook.py:fire():L391 Error in hook startup_complete
+Traceback (most recent call last):
+  File "/home/ahmad/.local/lib/python3.10/site-packages/libqtile/hook.py", line 389, in fire
+    i(*args, **kwargs)
+  File "/home/ahmad/.local/lib/python3.10/site-packages/libqtile/backend/wayland/core.py", line 654, in _configure_pending_inputs
+    inputs.configure_device(device, self.qtile.config.wl_input_rules)
+  File "/home/ahmad/.local/lib/python3.10/site-packages/libqtile/backend/wayland/inputs.py", line 335, in configure_device
+    if handle and libinput.libinput_device_config_tap_get_finger_count(handle) > 0:
+AttributeError: 'NoneType' object has no attribute 'libinput_device_config_tap_get_finger_count'
+2022-05-28 04:22:32,611 DEBUG libqtile interface.py:call():L310 Command: shutdown((), {})
+2022-05-28 04:22:32,612 DEBUG libqtile hook.py:fire():L381 Internal event: shutdown((), {})
+2022-05-28 04:22:32,614 DEBUG libqtile manager.py:_stop():L239 Stopping qtile
+2022-05-28 04:22:32,615 DEBUG libqtile ipc.py:close():L268 Stopping server on close
+2022-05-28 04:22:33,605 DEBUG libqtile core.py:remove_listener():L670 Removing io watch
+2022-05-28 04:22:33,614 INFO libqtile start.py:start():L96 Exiting...
+2022-05-28 04:22:33,619 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
