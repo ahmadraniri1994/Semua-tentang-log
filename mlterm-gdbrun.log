@@ -1,0 +1,7 @@
+(gdb) run
+Starting program: /usr/local/bin/mlterm-wl 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[Detaching after fork from child process 38615]
+xdg_wm_base@8: error 4: wrong configure serial: 0
+[Inferior 1 (process 38611) exited normally]
