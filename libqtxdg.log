@@ -1,0 +1,372 @@
+[ahmad build]$ make
+[  3%] Automatic MOC for target Qt6XdgIconLoader
+[  3%] Built target Qt6XdgIconLoader_autogen
+[  6%] Building CXX object src/xdgiconloader/CMakeFiles/Qt6XdgIconLoader.dir/Qt6XdgIconLoader_autogen/mocs_compilation.cpp.o
+[  9%] Building CXX object src/xdgiconloader/CMakeFiles/Qt6XdgIconLoader.dir/xdgiconloader.cpp.o
+In file included from /usr/include/x86_64-linux-gnu/qt6/QtCore/6.2.4/QtCore/private/qobject_p.h:64,
+                 from /usr/include/x86_64-linux-gnu/qt6/QtCore/6.2.4/QtCore/private/qcoreapplication_p.h:63,
+                 from /usr/include/x86_64-linux-gnu/qt6/QtGui/6.2.4/QtGui/private/qguiapplication_p.h:60,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:39:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/6.2.4/QtCore/private/qproperty_p.h:219:16: warning: ISO C++ prohibits anonymous structs [-Wpedantic]
+  219 |         struct {
+      |                ^
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp: In member function ‘QThemeIconInfo XdgIconLoader::findIconHelper(const QString&, const QString&
+, QStringList&, bool) const’:
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:445:40: error: no matching function for call to ‘QList<QIconLoaderEngineEntry*>::insert(QList<QI
+conLoaderEngineEntry*>::iterator, std::remove_reference<std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >&>::type)’
+  445 |                     info.entries.insert(info.entries.begin(), std::move(iconEntry));
+      |                     ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:45,
+                 from /usr/include/x86_64-linux-gnu/qt6/QtGui/QIcon:1,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader_p.h:53,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:37:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:447:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, QList<T>::parameter_type) [with T = QIconLoader
+EngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  447 |     iterator insert(qsizetype i, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:447:49: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLo
+aderEngineEntry*’}
+  447 |     iterator insert(qsizetype i, parameter_type t)
+      |                                  ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:815:1: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, qsizetype, QList<T>::parameter_type) [with T = Q
+IconLoaderEngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  815 | QList<T>::insert(qsizetype i, qsizetype n, parameter_type t)
+      | ^~~~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:815:1: note:   candidate expects 3 arguments, 2 provided
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:450:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, QList<T>::parameter_type) [with 
+T = QIconLoaderEngineEntry*; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  450 |     iterator insert(const_iterator before, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:450:59: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLo
+aderEngineEntry*’}
+  450 |     iterator insert(const_iterator before, parameter_type t)
+      |                                            ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:455:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, qsizetype, QList<T>::parameter_t
+ype) [with T = QIconLoaderEngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  455 |     iterator insert(const_iterator before, qsizetype n, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:455:14: note:   candidate expects 3 arguments, 2 provided
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:460:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, QList<T>::rvalue_ref) [with T = 
+QIconLoaderEngineEntry*; QList<T>::rvalue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  460 |     iterator insert(const_iterator before, rvalue_ref t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:460:55: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIcon
+LoaderEngineEntry*>::DisableRValueRefs’}
+  460 |     iterator insert(const_iterator before, rvalue_ref t)
+      |                                            ~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:465:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, QList<T>::rvalue_ref) [with T = QIconLoaderEngi
+neEntry*; qsizetype = long long int; QList<T>::rvalue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  465 |     iterator insert(qsizetype i, rvalue_ref t) {
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:465:45: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIcon
+LoaderEngineEntry*>::DisableRValueRefs’}
+  465 |     iterator insert(qsizetype i, rvalue_ref t) {
+      |                                  ~~~~~~~~~~~^
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:452:47: error: no matching function for call to ‘QList<QIconLoaderEngineEntry*>::push_back(std::
+remove_reference<std::unique_ptr<ScalableEntry>&>::type)’
+  452 |                         info.entries.push_back(std::move(iconEntry));
+      |                         ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:45,
+                 from /usr/include/x86_64-linux-gnu/qt6/QtGui/QIcon:1,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader_p.h:53,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:37:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:635:17: note: candidate: ‘void QList<T>::push_back(QList<T>::parameter_type) [with T = QIconLoaderEngineEntry*; QList<T>
+::parameter_type = QIconLoaderEngineEntry*]’
+  635 |     inline void push_back(parameter_type t) { append(t); }
+      |                 ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:635:42: note:   no known conversion for argument 1 from ‘std::remove_reference<std::unique_ptr<ScalableEntry>&>::type’ {
+aka ‘std::unique_ptr<ScalableEntry>’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLoaderEngineEntry*’}
+  635 |     inline void push_back(parameter_type t) { append(t); }
+      |                           ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:636:10: note: candidate: ‘void QList<T>::push_back(QList<T>::rvalue_ref) [with T = QIconLoaderEngineEntry*; QList<T>::rv
+alue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  636 |     void push_back(rvalue_ref t) { append(std::move(t)); }
+      |          ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:636:31: note:   no known conversion for argument 1 from ‘std::remove_reference<std::unique_ptr<ScalableEntry>&>::type’ {
+aka ‘std::unique_ptr<ScalableEntry>’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIconLoaderEngineEntry*>::DisableRValueRefs’}
+  636 |     void push_back(rvalue_ref t) { append(std::move(t)); }
+      |                    ~~~~~~~~~~~^
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:462:40: error: no matching function for call to ‘QList<QIconLoaderEngineEntry*>::insert(QList<QI
+conLoaderEngineEntry*>::iterator, std::remove_reference<std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >&>::type)’
+  462 |                     info.entries.insert(info.entries.begin(), std::move(iconEntry));
+      |                     ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:45,
+                 from /usr/include/x86_64-linux-gnu/qt6/QtGui/QIcon:1,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader_p.h:53,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:37:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:447:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, QList<T>::parameter_type) [with T = QIconLoader
+EngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  447 |     iterator insert(qsizetype i, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:447:49: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLo
+aderEngineEntry*’}
+  447 |     iterator insert(qsizetype i, parameter_type t)
+      |                                  ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:815:1: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, qsizetype, QList<T>::parameter_type) [with T = Q
+IconLoaderEngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  815 | QList<T>::insert(qsizetype i, qsizetype n, parameter_type t)
+      | ^~~~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:815:1: note:   candidate expects 3 arguments, 2 provided
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:450:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, QList<T>::parameter_type) [with 
+T = QIconLoaderEngineEntry*; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  450 |     iterator insert(const_iterator before, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:450:59: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLo
+aderEngineEntry*’}
+  450 |     iterator insert(const_iterator before, parameter_type t)
+      |                                            ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:455:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, qsizetype, QList<T>::parameter_t
+ype) [with T = QIconLoaderEngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  455 |     iterator insert(const_iterator before, qsizetype n, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:455:14: note:   candidate expects 3 arguments, 2 provided
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:460:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, QList<T>::rvalue_ref) [with T = 
+QIconLoaderEngineEntry*; QList<T>::rvalue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  460 |     iterator insert(const_iterator before, rvalue_ref t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:460:55: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIcon
+LoaderEngineEntry*>::DisableRValueRefs’}
+  460 |     iterator insert(const_iterator before, rvalue_ref t)
+      |                                            ~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:465:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, QList<T>::rvalue_ref) [with T = QIconLoaderEngi
+neEntry*; qsizetype = long long int; QList<T>::rvalue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  465 |     iterator insert(qsizetype i, rvalue_ref t) {
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:465:45: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIcon
+LoaderEngineEntry*>::DisableRValueRefs’}
+  465 |     iterator insert(qsizetype i, rvalue_ref t) {
+      |                                  ~~~~~~~~~~~^
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:504:36: error: no matching function for call to ‘QList<QIconLoaderEngineEntry*>::insert(QList<QI
+conLoaderEngineEntry*>::iterator, std::remove_reference<std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >&>::type)’
+  504 |                 info.entries.insert(info.entries.begin(), std::move(iconEntry));
+      |                 ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:45,
+                 from /usr/include/x86_64-linux-gnu/qt6/QtGui/QIcon:1,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader_p.h:53,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:37:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:447:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, QList<T>::parameter_type) [with T = QIconLoader
+EngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  447 |     iterator insert(qsizetype i, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:447:49: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLo
+aderEngineEntry*’}
+  447 |     iterator insert(qsizetype i, parameter_type t)
+      |                                  ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:815:1: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, qsizetype, QList<T>::parameter_type) [with T = Q
+IconLoaderEngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  815 | QList<T>::insert(qsizetype i, qsizetype n, parameter_type t)
+      | ^~~~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:815:1: note:   candidate expects 3 arguments, 2 provided
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:450:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, QList<T>::parameter_type) [with 
+T = QIconLoaderEngineEntry*; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  450 |     iterator insert(const_iterator before, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:450:59: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLo
+aderEngineEntry*’}
+  450 |     iterator insert(const_iterator before, parameter_type t)
+      |                                            ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:455:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, qsizetype, QList<T>::parameter_t
+ype) [with T = QIconLoaderEngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  455 |     iterator insert(const_iterator before, qsizetype n, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:455:14: note:   candidate expects 3 arguments, 2 provided
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:460:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, QList<T>::rvalue_ref) [with T = 
+QIconLoaderEngineEntry*; QList<T>::rvalue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  460 |     iterator insert(const_iterator before, rvalue_ref t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:460:55: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIcon
+LoaderEngineEntry*>::DisableRValueRefs’}
+  460 |     iterator insert(const_iterator before, rvalue_ref t)
+      |                                            ~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:465:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, QList<T>::rvalue_ref) [with T = QIconLoaderEngi
+neEntry*; qsizetype = long long int; QList<T>::rvalue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  465 |     iterator insert(qsizetype i, rvalue_ref t) {
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:465:45: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIcon
+LoaderEngineEntry*>::DisableRValueRefs’}
+  465 |     iterator insert(qsizetype i, rvalue_ref t) {
+      |                                  ~~~~~~~~~~~^
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:512:43: error: no matching function for call to ‘QList<QIconLoaderEngineEntry*>::push_back(std::
+remove_reference<std::unique_ptr<ScalableEntry>&>::type)’
+  512 |                     info.entries.push_back(std::move(iconEntry));
+      |                     ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:45,
+                 from /usr/include/x86_64-linux-gnu/qt6/QtGui/QIcon:1,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader_p.h:53,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:37:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:635:17: note: candidate: ‘void QList<T>::push_back(QList<T>::parameter_type) [with T = QIconLoaderEngineEntry*; QList<T>
+::parameter_type = QIconLoaderEngineEntry*]’
+  635 |     inline void push_back(parameter_type t) { append(t); }
+      |                 ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:635:42: note:   no known conversion for argument 1 from ‘std::remove_reference<std::unique_ptr<ScalableEntry>&>::type’ {
+aka ‘std::unique_ptr<ScalableEntry>’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLoaderEngineEntry*’}
+  635 |     inline void push_back(parameter_type t) { append(t); }
+      |                           ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:636:10: note: candidate: ‘void QList<T>::push_back(QList<T>::rvalue_ref) [with T = QIconLoaderEngineEntry*; QList<T>::rv
+alue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  636 |     void push_back(rvalue_ref t) { append(std::move(t)); }
+      |          ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:636:31: note:   no known conversion for argument 1 from ‘std::remove_reference<std::unique_ptr<ScalableEntry>&>::type’ {
+aka ‘std::unique_ptr<ScalableEntry>’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIconLoaderEngineEntry*>::DisableRValueRefs’}
+  636 |     void push_back(rvalue_ref t) { append(std::move(t)); }
+      |                    ~~~~~~~~~~~^
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp: In member function ‘QThemeIconInfo XdgIconLoader::unthemedFallback(const QString&, const QStrin
+gList&) const’:
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:547:32: error: no matching function for call to ‘QList<QIconLoaderEngineEntry*>::insert(QList<QI
+conLoaderEngineEntry*>::iterator, std::remove_reference<std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >&>::type)’
+  547 |             info.entries.insert(info.entries.begin(), std::move(iconEntry));
+      |             ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:45,
+                 from /usr/include/x86_64-linux-gnu/qt6/QtGui/QIcon:1,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader_p.h:53,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:37:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:447:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, QList<T>::parameter_type) [with T = QIconLoader
+EngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  447 |     iterator insert(qsizetype i, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:447:49: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLo
+aderEngineEntry*’}
+  447 |     iterator insert(qsizetype i, parameter_type t)
+      |                                  ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:815:1: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, qsizetype, QList<T>::parameter_type) [with T = Q
+IconLoaderEngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  815 | QList<T>::insert(qsizetype i, qsizetype n, parameter_type t)
+      | ^~~~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:815:1: note:   candidate expects 3 arguments, 2 provided
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:450:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, QList<T>::parameter_type) [with 
+T = QIconLoaderEngineEntry*; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  450 |     iterator insert(const_iterator before, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:450:59: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLo
+aderEngineEntry*’}
+  450 |     iterator insert(const_iterator before, parameter_type t)
+      |                                            ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:455:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, qsizetype, QList<T>::parameter_t
+ype) [with T = QIconLoaderEngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  455 |     iterator insert(const_iterator before, qsizetype n, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:455:14: note:   candidate expects 3 arguments, 2 provided
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:460:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, QList<T>::rvalue_ref) [with T = 
+QIconLoaderEngineEntry*; QList<T>::rvalue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  460 |     iterator insert(const_iterator before, rvalue_ref t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:460:55: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIcon
+LoaderEngineEntry*>::DisableRValueRefs’}
+  460 |     iterator insert(const_iterator before, rvalue_ref t)
+      |                                            ~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:465:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, QList<T>::rvalue_ref) [with T = QIconLoaderEngi
+neEntry*; qsizetype = long long int; QList<T>::rvalue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  465 |     iterator insert(qsizetype i, rvalue_ref t) {
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:465:45: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIcon
+LoaderEngineEntry*>::DisableRValueRefs’}
+  465 |     iterator insert(qsizetype i, rvalue_ref t) {
+      |                                  ~~~~~~~~~~~^
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:552:35: error: no matching function for call to ‘QList<QIconLoaderEngineEntry*>::push_back(std::
+remove_reference<std::unique_ptr<ScalableEntry>&>::type)’
+  552 |             info.entries.push_back(std::move(iconEntry));
+      |             ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:45,
+                 from /usr/include/x86_64-linux-gnu/qt6/QtGui/QIcon:1,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader_p.h:53,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:37:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:635:17: note: candidate: ‘void QList<T>::push_back(QList<T>::parameter_type) [with T = QIconLoaderEngineEntry*; QList<T>
+::parameter_type = QIconLoaderEngineEntry*]’
+  635 |     inline void push_back(parameter_type t) { append(t); }
+      |                 ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:635:42: note:   no known conversion for argument 1 from ‘std::remove_reference<std::unique_ptr<ScalableEntry>&>::type’ {
+aka ‘std::unique_ptr<ScalableEntry>’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLoaderEngineEntry*’}
+  635 |     inline void push_back(parameter_type t) { append(t); }
+      |                           ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:636:10: note: candidate: ‘void QList<T>::push_back(QList<T>::rvalue_ref) [with T = QIconLoaderEngineEntry*; QList<T>::rv
+alue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  636 |     void push_back(rvalue_ref t) { append(std::move(t)); }
+      |          ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:636:31: note:   no known conversion for argument 1 from ‘std::remove_reference<std::unique_ptr<ScalableEntry>&>::type’ {
+aka ‘std::unique_ptr<ScalableEntry>’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIconLoaderEngineEntry*>::DisableRValueRefs’}
+  636 |     void push_back(rvalue_ref t) { append(std::move(t)); }
+      |                    ~~~~~~~~~~~^
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:558:32: error: no matching function for call to ‘QList<QIconLoaderEngineEntry*>::insert(QList<QI
+conLoaderEngineEntry*>::iterator, std::remove_reference<std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >&>::type)’
+  558 |             info.entries.insert(info.entries.begin(), std::move(iconEntry));
+      |             ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/qt6/QtGui/qicon.h:45,
+                 from /usr/include/x86_64-linux-gnu/qt6/QtGui/QIcon:1,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader_p.h:53,
+                 from /home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:37:
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:447:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, QList<T>::parameter_type) [with T = QIconLoader
+EngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  447 |     iterator insert(qsizetype i, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:447:49: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLo
+aderEngineEntry*’}
+  447 |     iterator insert(qsizetype i, parameter_type t)
+      |                                  ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:815:1: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, qsizetype, QList<T>::parameter_type) [with T = Q
+IconLoaderEngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  815 | QList<T>::insert(qsizetype i, qsizetype n, parameter_type t)
+      | ^~~~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:815:1: note:   candidate expects 3 arguments, 2 provided
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:450:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, QList<T>::parameter_type) [with 
+T = QIconLoaderEngineEntry*; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  450 |     iterator insert(const_iterator before, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:450:59: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::parameter_type’ {aka ‘QIconLo
+aderEngineEntry*’}
+  450 |     iterator insert(const_iterator before, parameter_type t)
+      |                                            ~~~~~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:455:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, qsizetype, QList<T>::parameter_t
+ype) [with T = QIconLoaderEngineEntry*; qsizetype = long long int; QList<T>::parameter_type = QIconLoaderEngineEntry*]’
+  455 |     iterator insert(const_iterator before, qsizetype n, parameter_type t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:455:14: note:   candidate expects 3 arguments, 2 provided
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:460:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(QList<T>::const_iterator, QList<T>::rvalue_ref) [with T = 
+QIconLoaderEngineEntry*; QList<T>::rvalue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  460 |     iterator insert(const_iterator before, rvalue_ref t)
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:460:55: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIcon
+LoaderEngineEntry*>::DisableRValueRefs’}
+  460 |     iterator insert(const_iterator before, rvalue_ref t)
+      |                                            ~~~~~~~~~~~^
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:465:14: note: candidate: ‘QList<T>::iterator QList<T>::insert(qsizetype, QList<T>::rvalue_ref) [with T = QIconLoaderEngi
+neEntry*; qsizetype = long long int; QList<T>::rvalue_ref = QList<QIconLoaderEngineEntry*>::DisableRValueRefs]’
+  465 |     iterator insert(qsizetype i, rvalue_ref t) {
+      |              ^~~~~~
+/usr/include/x86_64-linux-gnu/qt6/QtCore/qlist.h:465:45: note:   no known conversion for argument 2 from ‘std::remove_reference<std::unique_ptr<PixmapEntry, std::default
+_delete<PixmapEntry> >&>::type’ {aka ‘std::unique_ptr<PixmapEntry, std::default_delete<PixmapEntry> >’} to ‘QList<QIconLoaderEngineEntry*>::rvalue_ref’ {aka ‘QList<QIcon
+LoaderEngineEntry*>::DisableRValueRefs’}
+  465 |     iterator insert(qsizetype i, rvalue_ref t) {
+      |                                  ~~~~~~~~~~~^
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp: In member function ‘QIconLoaderEngineEntry* XdgIconLoaderEngine::entryForSize(const QThemeIconI
+nfo&, const QSize&, int)’:
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:713:26: error: request for member ‘get’ in ‘entry’, which is of pointer type ‘QIconLoaderEngineE
+ntry* const’ (maybe you meant to use ‘->’ ?)
+  713 |             return entry.get();
+      |                          ^~~
+/home/ahmad/compile/grefsen/libqtxdg/src/xdgiconloader/xdgiconloader.cpp:724:34: error: request for member ‘get’ in ‘entry’, which is of pointer type ‘QIconLoaderEngineE
+ntry* const’ (maybe you meant to use ‘->’ ?)
+  724 |             closestMatch = entry.get();
+      |                                  ^~~
+make[2]: *** [src/xdgiconloader/CMakeFiles/Qt6XdgIconLoader.dir/build.make:90: src/xdgiconloader/CMakeFiles/Qt6XdgIconLoader.dir/xdgiconloader.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:151: src/xdgiconloader/CMakeFiles/Qt6XdgIconLoader.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
+[ahmad build]$ 
