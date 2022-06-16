@@ -1,0 +1,103 @@
+II 17-06-22 05:24:08.156 - [src/main.cpp:288] Starting wayfire version 0.8.0-5dbf0d0f (Jun 16 2022, branch 'master')
+II 17-06-22 05:24:08.156 - [libseat] [libseat/backend/seatd.c:79] Could not connect to socket /run/seatd.sock: No such file or directory
+II 17-06-22 05:24:08.156 - [libseat] [libseat/libseat.c:76] Backend 'seatd' failed to open seat, skipping
+II 17-06-22 05:24:08.167 - [libseat] [libseat/libseat.c:73] Seat opened with backend 'logind'
+II 17-06-22 05:24:08.167 - [backend/session/session.c:110] Successfully loaded libseat session
+II 17-06-22 05:24:08.171 - [backend/backend.c:220] Found 1 GPUs
+II 17-06-22 05:24:08.171 - [backend/drm/backend.c:183] Initializing DRM backend for /dev/dri/card0 (i915)
+II 17-06-22 05:24:08.171 - [backend/drm/drm.c:251] Found 2 DRM CRTCs
+II 17-06-22 05:24:08.171 - [backend/drm/drm.c:178] Found 6 DRM planes
+II 17-06-22 05:24:08.182 - [render/egl.c:180] Supported EGL client extensions: EGL_EXT_device_base EGL_EXT_device_enumeration EGL_EXT_device_query EGL_EXT_platform_base EGL_KHR_client_get_all_proc_addresses EGL_EXT_client_extensions EGL_KHR_debug EGL_EXT_platform_device EGL_EXT_platform_wayland EGL_KHR_platform_wayland EGL_EXT_platform_x11 EGL_KHR_platform_x11 EGL_MESA_platform_xcb EGL_MESA_platform_gbm EGL_KHR_platform_gbm EGL_MESA_platform_surfaceless
+II 17-06-22 05:24:08.216 - [render/egl.c:326] Using EGL 1.5
+II 17-06-22 05:24:08.216 - [render/egl.c:327] Supported EGL display extensions: EGL_ANDROID_blob_cache EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_IMG_context_priority EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image_base EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_WL_bind_wayland_display 
+II 17-06-22 05:24:08.216 - [render/egl.c:329] Supported EGL device extensions: EGL_EXT_device_drm EGL_EXT_device_drm_render_node
+II 17-06-22 05:24:08.216 - [render/egl.c:331] EGL vendor: Mesa Project
+II 17-06-22 05:24:08.219 - [render/gles2/renderer.c:737] Creating GLES2 renderer
+II 17-06-22 05:24:08.219 - [render/gles2/renderer.c:738] Using OpenGL ES 3.0 Mesa 22.0.5
+II 17-06-22 05:24:08.219 - [render/gles2/renderer.c:739] GL vendor: Intel
+II 17-06-22 05:24:08.219 - [render/gles2/renderer.c:740] GL renderer: Mesa Intel(R) HD Graphics 3000 (SNB GT2)
+II 17-06-22 05:24:08.219 - [render/gles2/renderer.c:741] Supported GLES2 extensions: GL_EXT_blend_minmax GL_EXT_multi_draw_arrays GL_EXT_texture_filter_anisotropic GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_format_BGRA8888 GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_mapbuffer GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_stencil8 GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_EXT_draw_instanced GL_EXT_texture_sRGB_decode GL_OES_EGL_image GL_OES_depth_texture GL_OES_packed_depth_stencil GL_EXT_texture_type_2_10_10_10_REV GL_NV_conditional_render GL_OES_get_program_binary GL_APPLE_texture_max_level GL_EXT_discard_framebuffer GL_EXT_read_format_bgra GL_EXT_frag_depth GL_NV_fbo_color_attachments GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_array_object GL_ANGLE_pack_reverse_row_order GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_EXT_occlusion_query_boolean GL_EXT_texture_rg GL_EXT_unpack_subimage GL_NV_draw_buffers GL_NV_read_buffer GL_NV_read_depth GL_NV_read_depth_stencil GL_NV_read_stencil GL_EXT_draw_buffers GL_EXT_map_buffer_range GL_KHR_debug GL_KHR_texture_compression_astc_ldr GL_NV_pixel_buffer_object GL_OES_depth_texture_cube_map GL_OES_required_internalformat GL_OES_surfaceless_context GL_EXT_color_buffer_float GL_EXT_sRGB_write_control GL_EXT_separate_shader_objects GL_EXT_shader_group_vote GL_EXT_shader_integer_mix GL_EXT_base_instance GL_EXT_compressed_ETC1_RGB8_sub_texture GL_EXT_copy_image GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_polygon_offset_clamp GL_EXT_texture_border_clamp GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_OES_copy_image GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_texture_border_clamp GL_EXT_blend_func_extended GL_EXT_float_blend GL_EXT_texture_sRGB_R8 GL_KHR_no_error GL_KHR_texture_compression_astc_sliced_3d GL_OES_EGL_image_external_essl3 GL_EXT_clip_cull_distance GL_EXT_disjoint_timer_query GL_EXT_texture_compression_s3tc_srgb GL_MESA_shader_integer_functions GL_EXT_clip_control GL_EXT_color_buffer_half_float GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_texture_mirror_clamp_to_edge GL_KHR_parallel_shader_compile GL_EXT_EGL_image_storage GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_texture_shadow_lod GL_INTEL_blackhole_render GL_MESA_framebuffer_flip_y GL_EXT_demote_to_helper_invocation GL_EXT_depth_clamp GL_EXT_texture_query_lod GL_MESA_bgra 
+II 17-06-22 05:24:08.233 - [src/default-config-backend.cpp:97] Using config file: /home/ahmad/.config/wayfire.ini
+II 17-06-22 05:24:08.233 - [subprojects/wf-config/src/file.cpp:576] Reading XML configuration options from directory /home/ahmad/.local/share/wayfire/metadata
+II 17-06-22 05:24:08.233 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/input-device.xml
+II 17-06-22 05:24:08.233 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/fisheye.xml
+II 17-06-22 05:24:08.234 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/workarounds.xml
+II 17-06-22 05:24:08.234 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/fast-switcher.xml
+II 17-06-22 05:24:08.234 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/extra-gestures.xml
+II 17-06-22 05:24:08.234 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/input.xml
+II 17-06-22 05:24:08.235 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/cube.xml
+II 17-06-22 05:24:08.235 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/preserve-output.xml
+II 17-06-22 05:24:08.235 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/zoom.xml
+II 17-06-22 05:24:08.235 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/scale-title-filter.xml
+II 17-06-22 05:24:08.236 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/idle.xml
+II 17-06-22 05:24:08.236 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/expo.xml
+II 17-06-22 05:24:08.236 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/autostart.xml
+II 17-06-22 05:24:08.236 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/grid.xml
+II 17-06-22 05:24:08.237 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/command.xml
+II 17-06-22 05:24:08.237 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/vswipe.xml
+II 17-06-22 05:24:08.237 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/decoration.xml
+II 17-06-22 05:24:08.237 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/wobbly.xml
+II 17-06-22 05:24:08.237 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/scale.xml
+II 17-06-22 05:24:08.238 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/window-rules.xml
+II 17-06-22 05:24:08.238 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/alpha.xml
+II 17-06-22 05:24:08.238 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/wm-actions.xml
+II 17-06-22 05:24:08.238 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/oswitch.xml
+II 17-06-22 05:24:08.238 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/output.xml
+II 17-06-22 05:24:08.238 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/vswitch.xml
+II 17-06-22 05:24:08.239 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/switcher.xml
+II 17-06-22 05:24:08.239 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/resize.xml
+II 17-06-22 05:24:08.239 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/wrot.xml
+II 17-06-22 05:24:08.240 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/invert.xml
+II 17-06-22 05:24:08.240 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/move.xml
+II 17-06-22 05:24:08.240 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/animate.xml
+II 17-06-22 05:24:08.240 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/core.xml
+II 17-06-22 05:24:08.241 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/blur.xml
+II 17-06-22 05:24:08.241 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/place.xml
+II 17-06-22 05:24:08.241 - [subprojects/wf-config/src/file.cpp:589] Reading XML configuration options from file /home/ahmad/.local/share/wayfire/metadata/simple-tile.xml
+II 17-06-22 05:24:08.249 - [backend/headless/backend.c:82] Creating headless backend
+II 17-06-22 05:24:08.249 - [backend/headless/backend.c:18] Starting headless backend
+II 17-06-22 05:24:08.263 - [src/main.cpp:348] Using socket name wayland-1
+II 17-06-22 05:24:08.428 - [src/core/seat/input-manager.cpp:46] handle new input: Power Button, default mapping: (null)
+II 17-06-22 05:24:08.433 - [src/core/seat/input-manager.cpp:46] handle new input: Video Bus, default mapping: (null)
+II 17-06-22 05:24:08.437 - [src/core/seat/input-manager.cpp:46] handle new input: Video Bus, default mapping: (null)
+II 17-06-22 05:24:08.442 - [src/core/seat/input-manager.cpp:46] handle new input: Lid Switch, default mapping: (null)
+II 17-06-22 05:24:08.442 - [src/core/seat/input-manager.cpp:46] handle new input: Sleep Button, default mapping: (null)
+II 17-06-22 05:24:08.446 - [src/core/seat/input-manager.cpp:46] handle new input: USB2.0 0.3M UVC WebCam: USB2.0 , default mapping: (null)
+II 17-06-22 05:24:08.451 - [src/core/seat/input-manager.cpp:46] handle new input: Asus WMI hotkeys, default mapping: (null)
+II 17-06-22 05:24:08.455 - [src/core/seat/input-manager.cpp:46] handle new input: AT Translated Set 2 keyboard, default mapping: (null)
+II 17-06-22 05:24:08.460 - [src/core/seat/input-manager.cpp:46] handle new input: SynPS/2 Synaptics TouchPad, default mapping: (null)
+II 17-06-22 05:24:08.460 - [backend/drm/drm.c:1185] Scanning DRM connectors on /dev/dri/card0
+II 17-06-22 05:24:08.461 - [backend/drm/drm.c:1251] Found connector 'LVDS-1'
+II 17-06-22 05:24:08.461 - [backend/drm/drm.c:1287] 'LVDS-1' connected
+II 17-06-22 05:24:08.461 - [backend/drm/drm.c:1298] Physical size: 290x160
+II 17-06-22 05:24:08.461 - [backend/drm/drm.c:1338] Detected modes:
+II 17-06-22 05:24:08.461 - [backend/drm/drm.c:1360]   1366x768@59973 (preferred)
+II 17-06-22 05:24:08.462 - [backend/drm/drm.c:1251] Found connector 'VGA-1'
+II 17-06-22 05:24:08.463 - [backend/drm/drm.c:1251] Found connector 'HDMI-A-1'
+II 17-06-22 05:24:08.463 - [backend/drm/drm.c:1251] Found connector 'DP-1'
+II 17-06-22 05:24:08.463 - [backend/drm/drm.c:1412] connector LVDS-1: Requesting modeset
+II 17-06-22 05:24:08.463 - [src/core/output-layout.cpp:1096] new output: LVDS-1 ("Unknown 0x17D8 0x00000000")
+II 17-06-22 05:24:08.464 - [src/core/output-layout.cpp:430] loaded mode auto
+II 17-06-22 05:24:08.466 - [backend/drm/drm.c:708] connector LVDS-1: Modesetting with '1366x768@59973mHz'
+(type equals variant: [type: string, value: toplevel] | (type equals variant: [type: string, value: x-or] & focusable equals variant: [type: bool, value: 1]))
+type equals variant: [type: string, value: overlay]
+false
+false
+false
+app_id equals variant: [type: string, value: pavucontrol]
+app_id equals variant: [type: string, value: xfce4-appfinder]
+EE 17-06-22 05:24:08.532 - [types/wlr_cursor.c:856] Cannot map device "Power Button" to output (not found in this cursor)
+EE 17-06-22 05:24:08.532 - [types/wlr_cursor.c:856] Cannot map device "Video Bus" to output (not found in this cursor)
+EE 17-06-22 05:24:08.532 - [types/wlr_cursor.c:856] Cannot map device "Video Bus" to output (not found in this cursor)
+EE 17-06-22 05:24:08.532 - [types/wlr_cursor.c:856] Cannot map device "Lid Switch" to output (not found in this cursor)
+EE 17-06-22 05:24:08.532 - [types/wlr_cursor.c:856] Cannot map device "Sleep Button" to output (not found in this cursor)
+EE 17-06-22 05:24:08.532 - [types/wlr_cursor.c:856] Cannot map device "USB2.0 0.3M UVC WebCam: USB2.0 " to output (not found in this cursor)
+EE 17-06-22 05:24:08.532 - [types/wlr_cursor.c:856] Cannot map device "Asus WMI hotkeys" to output (not found in this cursor)
+EE 17-06-22 05:24:08.532 - [types/wlr_cursor.c:856] Cannot map device "AT Translated Set 2 keyboard" to output (not found in this cursor)
+II 17-06-22 05:24:21.349 - [wayland] error in client communication (pid 1775)
+II 17-06-22 05:24:46.674 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: Volume Control app-id: pavucontrol
+II 17-06-22 05:24:46.769 - [plugins/window-rules/view-action-interface.cpp:139] View action interface: Snap to bottom_right.
+II 17-06-22 05:24:59.237 - [wayland] error in client communication (pid 1856)
+II 17-06-22 05:25:24.557 - [src/view/xdg-shell.cpp:201] new xdg_shell_stable surface: Volume Control app-id: pavucontrol
+II 17-06-22 05:25:24.571 - [plugins/window-rules/view-action-interface.cpp:139] View action interface: Snap to bottom_right.
+
