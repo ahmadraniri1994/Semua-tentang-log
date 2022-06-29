@@ -1,0 +1,151 @@
+[+0.01s] DEBUG: Logging to /var/log/lightdm/lightdm.log
+[+0.01s] DEBUG: Starting Light Display Manager 1.30.0, UID=0 PID=1837
+[+0.01s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
+[+0.01s] DEBUG: Loading configuration dirs from /usr/local/share/lightdm/lightdm.conf.d
+[+0.01s] DEBUG: Loading configuration dirs from /etc/xdg/lightdm/lightdm.conf.d
+[+0.01s] DEBUG: Loading configuration dirs from /usr/local/etc/xdg/lightdm/lightdm.conf.d
+[+0.01s] DEBUG: Loading configuration from /usr/local/etc/lightdm/lightdm.conf
+[+0.01s] DEBUG: Registered seat module local
+[+0.01s] DEBUG: Registered seat module xremote
+[+0.01s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
+[+0.01s] DEBUG: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+[+0.01s] WARNING: Failed to get list of logind seats: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.login1 was not provided by any .service files
+[+0.01s] DEBUG: Adding default seat
+[+0.01s] DEBUG: Seat seat0: Loading properties from config section Seat:*
+[+0.01s] DEBUG: Seat seat0: Starting
+[+0.01s] DEBUG: Seat seat0: Creating greeter session
+[+0.02s] DEBUG: Seat seat0: Creating display server of type x
+[+0.03s] DEBUG: Could not run plymouth --ping: Failed to execute child process “plymouth” (No such file or directory)
+[+0.03s] DEBUG: Using VT 9
+[+0.03s] DEBUG: Seat seat0: Starting local X display on VT 9
+[+0.03s] DEBUG: XServer 0: Logging to /var/log/lightdm/x-0.log
+[+0.03s] DEBUG: XServer 0: Writing X server authority to /var/run/lightdm/root/:0
+[+0.03s] DEBUG: XServer 0: Launching X Server
+[+0.03s] DEBUG: Launching process 1839: /usr/local/bin/X :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt9 -novtswitch
+[+0.03s] DEBUG: XServer 0: Waiting for ready signal from X server :0
+[+0.03s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+0.03s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+0.36s] DEBUG: Loading users from org.freedesktop.Accounts
+[+0.36s] DEBUG: User /org/freedesktop/Accounts/User1001 added
+[+6.51s] DEBUG: Got signal 30 from process 1839
+[+6.51s] DEBUG: XServer 0: Got signal from X server :0
+[+6.51s] DEBUG: XServer 0: Connecting to XServer :0
+[+6.56s] DEBUG: Seat seat0: Display server ready, starting session authentication
+[+6.56s] DEBUG: Session pid=1855: Started with service 'lightdm-greeter', username 'lightdm'
+[+6.60s] DEBUG: Session pid=1855: Authentication complete with return value 0: Success
+[+6.60s] DEBUG: Seat seat0: Session authenticated, running command
+[+6.60s] DEBUG: Session pid=1855: Running command /usr/local/sbin/lightdm-gtk-greeter
+[+6.60s] DEBUG: Creating shared data directory /var/lib/lightdm-data/lightdm
+[+6.60s] DEBUG: Session pid=1855: Logging to /var/log/lightdm/seat0-greeter.log
+[+6.61s] DEBUG: Activating ConsoleKit session LIDG-1656455144.272906-1770025402
+[+7.84s] DEBUG: Greeter connected version=1.30.0 api=1 resettable=false
+[+10.11s] DEBUG: Greeter start authentication for ahmad
+[+10.11s] DEBUG: Session pid=1870: Started with service 'lightdm', username 'ahmad'
+[+10.16s] DEBUG: Session pid=1870: Got 1 message(s) from PAM
+[+10.16s] DEBUG: Prompt greeter with 1 message(s)
+[+22.16s] DEBUG: Continue authentication
+[+22.17s] DEBUG: Session pid=1870: Authentication complete with return value 0: Success
+[+22.17s] DEBUG: Authenticate result for user ahmad: Success
+[+22.17s] DEBUG: User ahmad authorized
+[+22.18s] DEBUG: Greeter requests session gnome-wayland
+[+22.22s] DEBUG: Writing /home/ahmad/.dmrc
+[+22.26s] DEBUG: Seat seat0: Creating display server of type wayland
+[+22.26s] DEBUG: Using VT 10
+[+22.27s] DEBUG: Seat seat0: Display server ready, running session
+[+22.27s] DEBUG: Registering session with bus path /org/freedesktop/DisplayManager/Session0
+[+22.27s] DEBUG: Session pid=1870: Running command /usr/local/etc/lightdm/Xsession /usr/local/bin/gnome-session
+[+22.27s] DEBUG: Creating shared data directory /var/lib/lightdm-data/ahmad
+[+22.27s] DEBUG: Session pid=1870: Logging to .xsession-errors
+[+22.27s] DEBUG: Seat seat0: Stopping greeter
+[+22.27s] DEBUG: Session pid=1855: Sending SIGTERM
+[+22.27s] DEBUG: Activating ConsoleKit session LIDG-1656455159.944063-1320485390
+[+22.27s] WARNING: Error activating ConsoleKit session: GDBus.Error:org.freedesktop.ConsoleKit.Session.Error.NotSupported: Activation is not supported for this kind of seat
+[+22.53s] DEBUG: Greeter closed communication channel
+[+22.53s] DEBUG: Session pid=1855: Exited with return value 0
+[+22.53s] DEBUG: Seat seat0: Session stopped
+[+22.53s] DEBUG: Seat seat0: Stopping display server, no sessions require it
+[+22.53s] DEBUG: Sending signal 15 to process 1839
+[+22.71s] DEBUG: Session pid=1870: Exited with return value 1
+[+22.71s] DEBUG: Seat seat0: Session stopped
+[+22.71s] DEBUG: Seat seat0: Stopping display server, no sessions require it
+[+22.71s] DEBUG: Seat seat0: Display server stopped
+[+22.71s] DEBUG: Seat seat0: Active display server stopped, starting greeter
+[+22.71s] DEBUG: Seat seat0: Creating greeter session
+[+22.71s] DEBUG: Seat seat0: Creating display server of type x
+[+22.71s] DEBUG: Using VT 11
+[+22.71s] DEBUG: Seat seat0: Starting local X display on VT 11
+[+22.71s] DEBUG: XServer 1: Logging to /var/log/lightdm/x-1.log
+[+22.71s] DEBUG: XServer 1: Writing X server authority to /var/run/lightdm/root/:1
+[+22.71s] DEBUG: XServer 1: Launching X Server
+[+22.71s] DEBUG: Launching process 1911: /usr/local/bin/X :1 -seat seat0 -auth /var/run/lightdm/root/:1 -nolisten tcp vt11 -novtswitch
+[+22.71s] DEBUG: XServer 1: Waiting for ready signal from X server :1
+[+22.71s] DEBUG: Releasing VT 10
+[+23.06s] DEBUG: Process 1839 exited with return value 0
+[+23.06s] DEBUG: XServer 0: X server stopped
+[+23.06s] DEBUG: Releasing VT 9
+[+23.06s] DEBUG: XServer 0: Removing X server authority /var/run/lightdm/root/:0
+[+23.06s] DEBUG: Seat seat0: Display server stopped
+[+23.06s] DEBUG: Seat seat0: Active display server stopped, starting greeter
+[+23.06s] DEBUG: Seat seat0: Switching to existing greeter
+[+23.46s] DEBUG: Got signal 30 from process 1911
+[+23.46s] DEBUG: XServer 1: Got signal from X server :1
+[+23.46s] DEBUG: XServer 1: Connecting to XServer :1
+[+23.51s] DEBUG: Seat seat0: Display server ready, starting session authentication
+[+23.51s] DEBUG: Session pid=1915: Started with service 'lightdm-greeter', username 'lightdm'
+[+23.52s] DEBUG: Session pid=1915: Authentication complete with return value 0: Success
+[+23.52s] DEBUG: Seat seat0: Session authenticated, running command
+[+23.52s] DEBUG: Session pid=1915: Running command /usr/local/sbin/lightdm-gtk-greeter
+[+23.52s] DEBUG: Creating shared data directory /var/lib/lightdm-data/lightdm
+[+23.52s] DEBUG: Session pid=1915: Logging to /var/log/lightdm/seat0-greeter.log
+[+23.53s] DEBUG: Activating ConsoleKit session LIDG-1656455161.198025-1304845499
+[+23.53s] WARNING: Error activating ConsoleKit session: GDBus.Error:org.freedesktop.ConsoleKit.Session.Error.General: Unable to activate session
+[+23.76s] DEBUG: Greeter connected version=1.30.0 api=1 resettable=false
+[+23.83s] DEBUG: Greeter start authentication for ahmad
+[+23.83s] DEBUG: Session pid=1930: Started with service 'lightdm', username 'ahmad'
+[+23.83s] DEBUG: Session pid=1930: Got 1 message(s) from PAM
+[+23.83s] DEBUG: Prompt greeter with 1 message(s)
+[+50.34s] DEBUG: Greeter start authentication
+[+50.34s] DEBUG: Session pid=1930: Sending SIGTERM
+[+50.34s] DEBUG: Session pid=1934: Started with service 'lightdm', username '(null)'
+[+50.34s] DEBUG: Session pid=1930: Terminated with signal 15
+[+50.34s] DEBUG: Session: Failed during authentication
+[+50.34s] DEBUG: Seat seat0: Session stopped
+[+50.35s] DEBUG: Session pid=1934: Got 1 message(s) from PAM
+[+50.35s] DEBUG: Prompt greeter with 1 message(s)
+[+68.88s] DEBUG: Continue authentication
+[+68.88s] DEBUG: Session pid=1934: Got 1 message(s) from PAM
+[+68.88s] DEBUG: Prompt greeter with 1 message(s)
+[+71.37s] DEBUG: Continue authentication
+[+71.38s] DEBUG: Session pid=1934: Authentication complete with return value 9: Authentication error
+[+71.38s] DEBUG: Authenticate result for user stop: Authentication error
+[+71.38s] DEBUG: Session pid=1934: Exited with return value 1
+[+71.38s] DEBUG: Seat seat0: Session stopped
+[+71.38s] DEBUG: Greeter start authentication for stop
+[+71.38s] DEBUG: Session pid=1936: Started with service 'lightdm', username 'stop'
+[+71.39s] DEBUG: Session pid=1936: Got 1 message(s) from PAM
+[+71.39s] DEBUG: Prompt greeter with 1 message(s)
+[+71.39s] DEBUG: Got signal 15 from process 1935
+[+71.39s] DEBUG: Caught Terminated signal, shutting down
+[+71.39s] DEBUG: Stopping display manager
+[+71.39s] DEBUG: Seat seat0: Stopping
+[+71.39s] DEBUG: Seat seat0: Stopping display server
+[+71.39s] DEBUG: Sending signal 15 to process 1911
+[+71.39s] DEBUG: Seat seat0: Stopping session
+[+71.39s] DEBUG: Session pid=1915: Sending SIGTERM
+[+71.39s] DEBUG: Seat seat0: Stopping session
+[+71.39s] DEBUG: Session pid=1936: Sending SIGTERM
+[+71.39s] DEBUG: Session pid=1936: Terminated with signal 15
+[+71.39s] DEBUG: Session: Failed during authentication
+[+71.39s] DEBUG: Seat seat0: Session stopped
+[+71.40s] DEBUG: Greeter closed communication channel
+[+71.40s] DEBUG: Session pid=1915: Exited with return value 1
+[+71.40s] DEBUG: Seat seat0: Session stopped
+[+71.47s] DEBUG: Process 1911 exited with return value 0
+[+71.47s] DEBUG: XServer 1: X server stopped
+[+71.47s] DEBUG: Releasing VT 11
+[+71.47s] DEBUG: XServer 1: Removing X server authority /var/run/lightdm/root/:1
+[+71.47s] DEBUG: Seat seat0: Display server stopped
+[+71.47s] DEBUG: Seat seat0: Stopped
+[+71.47s] DEBUG: Display manager stopped
+[+71.47s] DEBUG: Stopping daemon
+[+71.47s] DEBUG: Exiting with return value 0
