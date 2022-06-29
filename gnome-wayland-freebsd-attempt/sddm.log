@@ -1,0 +1,134 @@
+[06:21:25.905] (II) DAEMON: Initializing...
+[06:21:26.436] (II) DAEMON: Starting...
+[06:21:26.437] (II) DAEMON: No session manager found
+[06:21:26.437] (II) DAEMON: Adding new display on vt 9 ...
+[06:21:26.559] (II) DAEMON: Loading theme configuration from ""
+[06:21:26.560] (II) DAEMON: Display server starting...
+[06:21:26.560] (II) DAEMON: Adding cookie to "/var/run/sddm/{23d49782-a2b9-4892-bb9c-8bdaa6dbf1b9}"
+[06:21:26.695] (II) DAEMON: Running: /usr/local/bin/X -nolisten tcp -auth /var/run/sddm/{23d49782-a2b9-4892-bb9c-8bdaa6dbf1b9} -background none -noreset -displayfd 17 -seat seat0 vt9
+[06:21:34.591] (II) DAEMON: Setting default cursor
+[06:21:34.593] (WW) DAEMON: Could not setup default cursor
+[06:21:34.593] (II) DAEMON: Running display setup script  "/usr/local/share/sddm/scripts/Xsetup"
+[06:21:34.594] (II) DAEMON: Display server started.
+[06:21:34.595] (II) DAEMON: Socket server starting...
+[06:21:34.595] (II) DAEMON: Socket server started.
+[06:21:34.595] (WW) DAEMON: The configured theme "breeze" doesn't exist, using the embedded theme instead
+[06:21:34.595] (II) DAEMON: Loading theme configuration from ""
+[06:21:34.595] (II) DAEMON: Greeter starting...
+[06:21:34.690] (II) HELPER: [PAM] Starting...
+[06:21:34.691] (II) HELPER: [PAM] Authenticating...
+[06:21:34.691] (II) HELPER: [PAM] returning.
+[06:21:34.691] (II) HELPER: Starting: "/usr/local/share/sddm/scripts/Xsession /usr/local/bin/sddm-greeter --socket /tmp/sddm-:0-wwuqLe"
+[06:21:34.693] (II) DAEMON: Greeter session started successfully
+[06:21:36.569] (II) DAEMON: Message received from greeter: Connect
+[06:21:55.593] (II) DAEMON: Message received from greeter: Login
+[06:21:55.594] (II) DAEMON: Reading from "/usr/local/share/wayland-sessions/gnome-wayland.desktop"
+[06:21:55.594] (II) DAEMON: Reading from "/usr/local/share/wayland-sessions/gnome-wayland.desktop"
+[06:21:55.594] (II) DAEMON: Session "/usr/local/share/wayland-sessions/gnome-wayland.desktop" selected, command: "/usr/local/bin/gnome-session"
+[06:21:55.602] (II) HELPER: [PAM] Starting...
+[06:21:55.602] (II) HELPER: [PAM] Authenticating...
+[06:21:55.602] (II) HELPER: [PAM] Preparing to converse...
+[06:21:55.602] (II) HELPER: [PAM] Conversation with 1 messages
+[06:21:55.606] (II) HELPER: [PAM] returning.
+[06:21:55.607] (II) DAEMON: Authenticated successfully
+[06:21:55.607] (II) HELPER: New VT is unsupported on FreeBSD
+[06:21:55.607] (II) HELPER: [PAM] Preparing to converse...
+[06:21:55.607] (II) HELPER: [PAM] Conversation with 1 messages
+[06:21:55.607] (WW) DAEMON: Authentication information: "Last login: Wed Jun 29 06:18:30 on ttyv0"
+[06:21:55.607] (II) HELPER: Starting: "/usr/local/share/sddm/scripts/wayland-session /usr/local/bin/gnome-session"
+[06:21:55.609] (II) HELPER: Jumping to VT -1 is unsupported on FreeBSD
+[06:21:55.646] (II) DAEMON: Session started
+[06:21:55.924] (II) HELPER: [PAM] Closing session
+[06:21:55.924] (II) HELPER: [PAM] Ended.
+[06:21:55.925] (II) DAEMON: Auth: sddm-helper exited successfully
+[06:21:55.925] (II) DAEMON: Greeter stopped.
+[06:21:57.074] (II) HELPER: [PAM] Closing session
+[06:21:57.074] (II) HELPER: [PAM] Ended.
+[06:21:57.075] (WW) DAEMON: Auth: sddm-helper exited with 15
+[06:21:57.075] (II) DAEMON: Socket server stopping...
+[06:21:57.075] (II) DAEMON: Socket server stopped.
+[06:21:57.075] (II) DAEMON: Display server stopping...
+[06:21:57.210] (II) DAEMON: Display server stopped.
+[06:21:57.210] (II) DAEMON: Running display stop script  "/usr/local/share/sddm/scripts/Xstop"
+[06:21:57.212] (II) DAEMON: Removing display ":0" ...
+[06:21:57.212] (II) DAEMON: Adding new display on vt 9 ...
+[06:21:57.212] (II) DAEMON: Loading theme configuration from ""
+[06:21:57.212] (II) DAEMON: Display server starting...
+[06:21:57.212] (II) DAEMON: Adding cookie to "/var/run/sddm/{3d605ec7-3bd2-4813-8c58-6e840bb5e9bb}"
+[06:21:57.214] (II) DAEMON: Running: /usr/local/bin/X -nolisten tcp -auth /var/run/sddm/{3d605ec7-3bd2-4813-8c58-6e840bb5e9bb} -background none -noreset -displayfd 18 -seat seat0 vt9
+[06:21:57.694] (II) DAEMON: Setting default cursor
+[06:21:57.695] (WW) DAEMON: Could not setup default cursor
+[06:21:57.695] (II) DAEMON: Running display setup script  "/usr/local/share/sddm/scripts/Xsetup"
+[06:21:57.697] (II) DAEMON: Display server started.
+[06:21:57.697] (II) DAEMON: Socket server starting...
+[06:21:57.697] (II) DAEMON: Socket server started.
+[06:21:57.697] (WW) DAEMON: The configured theme "breeze" doesn't exist, using the embedded theme instead
+[06:21:57.697] (II) DAEMON: Loading theme configuration from ""
+[06:21:57.697] (II) DAEMON: Greeter starting...
+[06:21:57.705] (II) HELPER: [PAM] Starting...
+[06:21:57.705] (II) HELPER: [PAM] Authenticating...
+[06:21:57.705] (II) HELPER: [PAM] returning.
+[06:21:57.705] (II) HELPER: Starting: "/usr/local/share/sddm/scripts/Xsession /usr/local/bin/sddm-greeter --socket /tmp/sddm-:0-dQRqvw"
+[06:21:57.707] (II) DAEMON: Greeter session started successfully
+[06:21:57.783] (II) DAEMON: Message received from greeter: Connect
+[06:22:10.209] (II) DAEMON: Message received from greeter: Login
+[06:22:10.209] (II) DAEMON: Reading from "/usr/local/share/wayland-sessions/gnome.desktop"
+[06:22:10.209] (II) DAEMON: Reading from "/usr/local/share/wayland-sessions/gnome.desktop"
+[06:22:10.209] (II) DAEMON: Session "/usr/local/share/wayland-sessions/gnome.desktop" selected, command: "/usr/local/bin/gnome-session"
+[06:22:10.218] (II) HELPER: [PAM] Starting...
+[06:22:10.218] (II) HELPER: [PAM] Authenticating...
+[06:22:10.218] (II) HELPER: [PAM] Preparing to converse...
+[06:22:10.218] (II) HELPER: [PAM] Conversation with 1 messages
+[06:22:10.222] (II) HELPER: [PAM] returning.
+[06:22:10.222] (II) DAEMON: Authenticated successfully
+[06:22:10.223] (II) HELPER: New VT is unsupported on FreeBSD
+[06:22:10.223] (II) HELPER: [PAM] Preparing to converse...
+[06:22:10.223] (II) HELPER: [PAM] Conversation with 1 messages
+[06:22:10.223] (WW) DAEMON: Authentication information: "Last login: Wed Jun 29 06:21:55 on tty-1"
+[06:22:10.223] (II) HELPER: Starting: "/usr/local/share/sddm/scripts/wayland-session /usr/local/bin/gnome-session"
+[06:22:10.225] (II) HELPER: Jumping to VT -1 is unsupported on FreeBSD
+[06:22:10.227] (II) DAEMON: Session started
+[06:22:10.238] (II) HELPER: [PAM] Closing session
+[06:22:10.239] (II) HELPER: [PAM] Ended.
+[06:22:10.240] (II) DAEMON: Auth: sddm-helper exited successfully
+[06:22:10.240] (II) DAEMON: Greeter stopped.
+[06:22:10.353] (II) HELPER: [PAM] Closing session
+[06:22:10.353] (II) HELPER: [PAM] Ended.
+[06:22:10.354] (WW) DAEMON: Auth: sddm-helper exited with 15
+[06:22:10.354] (II) DAEMON: Socket server stopping...
+[06:22:10.354] (II) DAEMON: Socket server stopped.
+[06:22:10.354] (II) DAEMON: Display server stopping...
+[06:22:10.483] (II) DAEMON: Display server stopped.
+[06:22:10.483] (II) DAEMON: Running display stop script  "/usr/local/share/sddm/scripts/Xstop"
+[06:22:10.485] (II) DAEMON: Removing display ":0" ...
+[06:22:10.485] (II) DAEMON: Adding new display on vt 9 ...
+[06:22:10.485] (II) DAEMON: Loading theme configuration from ""
+[06:22:10.485] (II) DAEMON: Display server starting...
+[06:22:10.485] (II) DAEMON: Adding cookie to "/var/run/sddm/{489a4081-41d5-46c6-93a4-5f8437d3779f}"
+[06:22:10.488] (II) DAEMON: Running: /usr/local/bin/X -nolisten tcp -auth /var/run/sddm/{489a4081-41d5-46c6-93a4-5f8437d3779f} -background none -noreset -displayfd 18 -seat seat0 vt9
+[06:22:10.966] (II) DAEMON: Setting default cursor
+[06:22:10.968] (WW) DAEMON: Could not setup default cursor
+[06:22:10.968] (II) DAEMON: Running display setup script  "/usr/local/share/sddm/scripts/Xsetup"
+[06:22:10.970] (II) DAEMON: Display server started.
+[06:22:10.970] (II) DAEMON: Socket server starting...
+[06:22:10.970] (II) DAEMON: Socket server started.
+[06:22:10.970] (WW) DAEMON: The configured theme "breeze" doesn't exist, using the embedded theme instead
+[06:22:10.970] (II) DAEMON: Loading theme configuration from ""
+[06:22:10.970] (II) DAEMON: Greeter starting...
+[06:22:10.977] (II) HELPER: [PAM] Starting...
+[06:22:10.978] (II) HELPER: [PAM] Authenticating...
+[06:22:10.978] (II) HELPER: [PAM] returning.
+[06:22:10.978] (II) HELPER: Starting: "/usr/local/share/sddm/scripts/Xsession /usr/local/bin/sddm-greeter --socket /tmp/sddm-:0-XnNBEf"
+[06:22:10.980] (II) DAEMON: Greeter session started successfully
+[06:22:11.056] (II) DAEMON: Message received from greeter: Connect
+[06:22:33.600] (WW) DAEMON: Signal received: SIGTERM
+[06:22:33.601] (II) DAEMON: Greeter stopping...
+[06:22:33.601] (II) DAEMON: Socket server stopping...
+[06:22:33.601] (II) DAEMON: Socket server stopped.
+[06:22:33.601] (II) DAEMON: Display server stopping...
+[06:22:33.611] (II) HELPER: [PAM] Closing session
+[06:22:33.611] (II) HELPER: [PAM] Ended.
+[06:22:33.619] (II) DAEMON: Display server stopped.
+[06:22:33.619] (II) DAEMON: Running display stop script  "/usr/local/share/sddm/scripts/Xstop"
+[06:22:33.621] (II) DAEMON: Greeter stopping...
+[06:22:33.621] (WW) DAEMON: QProcess: Destroyed while process ("/usr/local/libexec/sddm-helper") is still running.
